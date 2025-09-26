@@ -1,0 +1,71 @@
+# CSCI 159 Lab 3 – Functions
+
+## Description
+This lab focuses on designing and implementing reusable C++ functions to calculate volumes, surface areas, and required quantities for barrels and concrete pads. The program prompts the user for input, calls functions to compute results, and outputs the information in a structured and safe manner.
+
+---
+
+## Installation
+To compile and run the program:
+
+```bash
+g++ -Wall Lab3a.cpp -o Lab3
+./Lab3
+Specifications
+•!!
+
+Your program will:
+• Describe what the program will do.
+• Prompt the user for volume of water needed (in L).
+• Prompt the user for the height and radius of their barrels (in cm).
+• Prompt the user for the desired height of their concrete pads (in cm).
+• Use a function to compute and return the volume of the barrel (in L).
+• Use a function to output the surface area of the pads (in cm?).
+• Use functions to compute and output the number of barrels required.
+• Use a function to compute and return the volume of the pads (in L).
+(Assume the pads must have width and length at least 2 x\ rrel radius).)
+
+Requirements
+• Code compiles and runs with no warnings.
+• Code terminates safely (no crashes).
+• Code compiles and runs with no errors.
+
+Code Readability and Comments
+• Header comment includes:
+• Name of author
+• Name of program
+• Brief description of purpose of program
+• Brief comment for all variable declarations.
+• Comment for each function describing how it is used (input, output).
+
+
+File layout:
+• Header comment
+• Includes
+• Constant declarations
+• Function prototypes
+• Main routine
+• Function implementations
+
+Appropriate use of:
+• Constants
+• Reusable functions
+• Modular code
+• Passing parameters
+• Returning values
+
+Bonus
+• Compute and output the approximate weight (in kg) of the concrete pads.
+(Assume density = 2,400 kg/m?)
+
+Assumptions
+• No error checking required.
+• All values entered by the user are numeric.
+• All values entered by the user are positive (>0).
+
+Author
+Randeep Singh
+
+References
+• W3Schools C++ Reference
+• Class notes and examples
